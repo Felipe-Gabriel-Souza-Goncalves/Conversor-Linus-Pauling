@@ -12,29 +12,25 @@
     <div id="main">
         <h1>Insira o número de elétrons (1-118)</h1>    
         <input type="number" max="118" min="1" id="numAtom" placeholder="Digite o valor">
-        <button onclick="fazerMagica();pegarElemento()">Enviar</button>
+        <button onclick="fazerMagica();">Enviar</button>
     
         <h2>Elemento base: <span id="element"></span></h2>    
 
         <div id="divResultadoLinus"><span id="placeholderResultado"></span></div>
     </div>
     
-    <!--TESTES COM O GOOGLE TRANSLATE  -->
-
+    <!--GOOGLE TRANSLATE  -->
     <script type="text/javascript">
     function googleTranslateElementInit() {
       new google.translate.TranslateElement({pageLanguage: 'pt-br'}, 'google_translate_element');
     }
     </script>
-    
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
-
     <footer>
-        <h6>Uso da API da tabela periódica por         <a href="https://github.com/Bowserinator/Periodic-Table-JSON">Bowserinator</a>
+        <h6>Uso da API da tabela periódica por <a href="https://github.com/Bowserinator/Periodic-Table-JSON">Bowserinator</a>
         </h6>
         <h6>Uso livre da API previsto em <a href="http://creativecommons.org/licenses/by-sa/3.0">http://creativecommons.org/licenses/by-sa/3.0</a></h6>
-
     </footer>
     <script src="script.js"></script>
 </body>

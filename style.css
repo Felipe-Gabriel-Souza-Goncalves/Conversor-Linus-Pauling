@@ -14,17 +14,13 @@ body{
     justify-content: center;
     min-height: 70vh;
 }
+#resultadoLinus{
+    max-width: 550px;
+}
 #main input{
     padding: 4px;
     margin-bottom: 10px;
 }
-
 #main button{
     padding: 4px;
-
 }
-/* #main input, */
-/* #main button{ */
-    /* justify-content: center; */
-    /* display: flex; */
-/* } */
